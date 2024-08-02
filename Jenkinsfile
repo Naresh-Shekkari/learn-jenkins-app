@@ -24,7 +24,7 @@ pipeline {
         stage("Test") {
             steps {
                 echo "Test Stage"
-                
+                echo "Added new line in the test script"
             }
         }
     }
